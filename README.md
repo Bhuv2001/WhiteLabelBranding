@@ -1,37 +1,160 @@
-# White Label Branding System
+# 🎨 White Label Branding Portal
 
-## Tech Stack
+A modern White Label Branding Portal built with **React, Vite, Tailwind CSS v4, and Supabase**. The application allows administrators to customize company branding, upload logos, choose login themes, and preview branding changes in real time.
 
-- React (Vite)
-- Tailwind CSS
-- Supabase
-- React Router
+---
+
+## 🚀 Features
+
+- 🏢 Company Branding Management
+- 📝 Update Company & Application Name
+- 🖼️ Logo Upload using Supabase Storage
+- 🎨 Multiple Login Theme Templates
+- 🌙 Dark & ☀️ Light Mode Support
+- 👀 Live Login Preview
+- 💾 Save Branding Settings to Supabase
+- 📱 Fully Responsive Design
+- ⚡ Fast Performance with Vite
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React 19
+- Vite
+- Tailwind CSS v4
+- React Router DOM
+- React Icons
 - React Hot Toast
 
-## Features
+### Backend / Database
+- Supabase
+- Supabase Storage
 
-- Upload Company Logo
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── branding/
+│   ├── login/
+│   └── ui/
+│
+├── context/
+├── hooks/
+├── layouts/
+├── pages/
+├── routes/
+├── services/
+├── utils/
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## 📸 Application Modules
+
+### Admin Dashboard
+- Manage Company Name
+- Manage Application Name
+- Upload Logo
 - Select Login Theme
-- Live Login Preview
-- Save Branding
-- Auto Load Branding
-- Responsive Dashboard
-- Supabase Storage Integration
+- Toggle Light / Dark Mode
+- Save Branding Settings
 
-## Setup
+### Login Page
+- Dynamic Branding
+- Dynamic Logo
+- Live Theme Preview
+- Responsive Authentication UI
+
+---
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Bhuv2001/WhiteLabelBranding.git
+```
+
+Navigate into the project
+
+```bash
+cd WhiteLabelBranding
+```
+
+Install dependencies
 
 ```bash
 npm install
+```
+
+Create a `.env` file in the project root and add your Supabase credentials:
+
+```env
+VITE_SUPABASE_URL=YOUR_SUPABASE_URL
+VITE_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
+```
+
+Start the development server
+
+```bash
 npm run dev
 ```
 
-## Environment Variables
+---
 
+## 🏗️ Production Build
+
+```bash
+npm run build
 ```
-VITE_SUPABASE_URL=
-VITE_SUPABASE_ANON_KEY=
+
+Preview the production build
+
+```bash
+npm run preview
 ```
 
-## Developed By
+---
 
-Bhuvanesh Singh
+## 📦 Deployment
+
+The project can be deployed on:
+
+- Vercel
+- Netlify
+
+---
+
+## ✨ Highlights
+
+- Clean and modern UI
+- Responsive layout
+- Component-based architecture
+- Reusable UI components
+- Real-time branding preview
+- Secure data storage with Supabase
+- Easy to customize and extend
+
+---
+
+## 👨‍💻 Author
+
+**Bhuvanesh Singh**
+
+- GitHub: https://github.com/Bhuv2001
+
+---
+
+## 📄 License
+
+This project was developed as part of a frontend assignment for learning and evaluation purposes.
