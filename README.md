@@ -147,6 +147,10 @@ The project can be deployed on:
 
 ---
 
+<img width="1440" height="900" alt="Screenshot 2026-07-17 at 1 53 53 PM" src="https://github.com/user-attachments/assets/a98b8045-3967-467a-86df-274545c35380" />
+<img width="1440" height="900" alt="Screenshot 2026-07-17 at 1 53 59 PM" src="https://github.com/user-attachments/assets/ff6ae182-2d99-47f3-a5e3-bd9e20233d3b" />
+
+
 ## 👨‍💻 Author
 
 **Bhuvanesh Singh**
